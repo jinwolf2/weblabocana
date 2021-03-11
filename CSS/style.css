@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.banner{
+    position: absolute;
+    width: 100%;
+    height: calc(75vh - 50px);
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url('../IMG/BGS/pexels-edward-eyer-667986.jpg');
+    animation: banner 40s infinite ease 2s;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.banner-content{
+    margin:0 ;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: rgba(66, 11, 11, 0.315);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content h1{
+    margin: 0;
+    padding:0;
+    padding-bottom:30px ;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.banner-content a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 9px 20px;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+}
+
+.fondo_quienes{
+    background: white;  /* fallback for old browsers */
+    width:100%;
+    height: auto;
+    padding: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+}
+
+.fondo_quienes p{
+    margin: 20px;
+    color: black;
+    transition: all 0.25s;
+    text-align: center;
+}
+
+.fondo_quienes h1{
+    font-size: 60px;
+    margin: 20px;
+    color: black;
+    transition: all 0.25s;
+    text-align: center;
+}
+
+.fotos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.fotos .img{
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 30px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.fotos .img:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+#RGB{
+    color: rgb(185, 17, 17);
+}
+
+.contact-in{
+    width: 100%;
+    height:400px; 
+    margin:auto ;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background: #f5f5f5;
+}
+
+.contact-map{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+
+.contact-map iframe{
+    width: 100%;
+    height: 100%;
+}
+.contact-form{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    padding: 30px;
+    text-align: center;
+}
+
+.contact-form h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+
+}
+
+.contact-form-text{
+    width: 100%;
+    height: 40px;
+    color: black;
+    border-radius: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #7e2020;
+}
+
+footer{
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #251f33;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height:28px ;
+    font-size: 10px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+}
+
+.socials a:hover i{
+    color:  rgb(107, 25, 25);
+}
+
+.footer-bottom{
+    background: #181422;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.online{
+    width: 100%;
+    height: calc(50vh - 50px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: #3b5998;
+}
+.online .ventajas{
+    border-radius: 8px;
+
+    overflow: hidden;
+    margin: 30px;
+    text-align: center;
+    transition: all 0.25s;
+}
