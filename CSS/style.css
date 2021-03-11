@@ -55,7 +55,7 @@ body{
 }
 
 .fondo_quienes{
-    background: white;  /* fallback for old browsers */
+    background: white; 
     width:100%;
     height: auto;
     padding: 30px;
@@ -238,18 +238,7 @@ footer{
 
 .online{
     width: 100%;
-    height: calc(50vh - 50px);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    background-color: #3b5998;
+    height:calc(75vh - 50px);
+    background-position: center;
 }
-.online .ventajas{
-    border-radius: 8px;
 
-    overflow: hidden;
-    margin: 30px;
-    text-align: center;
-    transition: all 0.25s;
-}
